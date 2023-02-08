@@ -726,6 +726,10 @@ a:hover {
 .footer__our-offices {
   padding-right: 1.25rem;
 }
+.footer__our-offices a {
+  color: inherit;
+  text-decoration: none;
+}
 .footer__title {
   font-family: "Marmelad", sans-serif;
   white-space: nowrap;
