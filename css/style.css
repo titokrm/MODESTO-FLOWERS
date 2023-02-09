@@ -911,6 +911,10 @@ a:hover {
     line-height: 1.17em;
     margin-bottom: 1.5rem;
   }
+  .begin-work__btns-place {
+    max-width: 43.75rem;
+    margin: 0 auto;
+  }
   .begin-work__btn {
     height: 2.69rem;
     font-size: 1rem;
@@ -923,6 +927,11 @@ a:hover {
   .begin-work__btn--begin-sell {
     min-width: 0rem;
     margin-left: 0.5rem;
+  }
+}
+@media screen and (max-width: 575px) and (min-height: 160vw) {
+  .begin-work {
+    min-height: 160vw;
   }
 }
 
